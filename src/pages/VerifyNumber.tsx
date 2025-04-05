@@ -190,7 +190,7 @@ const VerifyNumber: React.FC = () => {
       };
 
       const response = await fetch(
-        "http://localhost:8080/v1/api/verify?maskMobile=true",
+        "https://be-authmatech-production.up.railway.app/v1/api/verify?maskMobile=true",
         {
           method: "POST",
           headers: {

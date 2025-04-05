@@ -1,5 +1,5 @@
 
-const LOCAL_API_URL = 'http://localhost:8080/v1/api';
+const LOCAL_API_URL = 'https://be-authmatech-production.up.railway.app/v1/api';
 const DOT_API_URL = 'http://www.dot-jo.biz/appgw';
 
 export const getMSISDN = async () => {

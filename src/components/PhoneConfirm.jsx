@@ -11,7 +11,7 @@ const PhoneConfirm = ({ data, onVerify }) => {
     try {
       setLoading(true);
       setError(null);
-      const res = await fetch('http://localhost:8080/v1/api/verify', {
+      const res = await fetch('https://be-authmatech-production.up.railway.app/v1/api/verify', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ 
